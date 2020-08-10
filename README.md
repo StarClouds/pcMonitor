@@ -1,4 +1,4 @@
-# cmoac-dashboard
+# pc-monitor
 
 > 温度检测
 
