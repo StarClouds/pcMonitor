@@ -1,0 +1,149 @@
+.charts-box {
+  margin: 0 0 25px;
+  .charts-title {
+    font-size: 26px;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 40px;
+    display: flex;
+    &::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      top: 50%;
+      width: 12px;
+      height: 12px;
+      background: #0ed4f9;
+      transform: translate(0, -50%) rotate(45deg);
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 22px;
+      height: 22px;
+      background: #0ed4f9;
+      transform: translate(0, -50%) rotate(45deg);
+    }
+    span {
+      padding-right: 10px;
+    }
+    .cen-line {
+      flex: 1;
+      margin: 16px 25px 0 0;
+      height: 1px;
+      background: #00dbf9;
+    }
+  }
+}
+.common-wrap {
+  width: 100%;
+  height: 100%;
+  .common-wrap-top{
+    width: 100%;
+    height: 70%;
+    //background: blue;
+    padding: 0 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+    &>div{
+      float: left;
+      height: 100%;
+    }
+    .common-wrap-top-left{
+      width: 16.3%;
+      //background: #0AC59F;
+    }
+    .common-wrap-top-middle{
+      width: 62%;
+      padding: 0 30px;
+      //background: #0B90F7;
+      box-sizing: border-box;
+    }
+    .common-wrap-top-right{
+      width: 21.7%;
+      //background: #5AAC58;
+    }
+  }
+  .common-wrap-bottom{
+    margin-top: 20px;
+    width: 100%;
+    height: calc(30% - 20px);
+    //background: blue;
+  }
+}
+.fucaiTableCom{
+  .el-table, .el-table__expanded-cell {
+    background-color: transparent;
+    color: #fff!important;
+    font-size: 16px;
+  }
+  el-table th, .el-table tr {
+    background-color: transparent;
+  }
+  thead{
+    tr{
+      th{
+        background: rgb(8, 93, 133) !important;
+        color: #fff!important;
+      }
+    }
+  }
+  .el-table tbody tr:hover>td {
+    background-color:transparent!important
+  }
+  .el-table td, .el-table th.is-leaf,.el-table--border, .el-table--group{
+    border-color: rgb(9, 115, 155);
+  }
+  td{
+  }
+  .el-table th.gutter{
+    display: table-cell!important;
+  }
+  .el-table::before {
+    z-index: -1;
+  }
+  .el-table--border::after{
+    background: transparent!important;
+  }
+}
+.FullImg{
+  width: 100%;
+  height: 100%;
+}
+.btm-title {
+  flex: 1;
+  height: 30px;
+  font-size: 24px;
+  color: #fff;
+  position: relative;
+  margin: 0 80px;
+  text-align: center;
+  padding-bottom: 15px;
+  &::after,
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    width: 12px;
+    height: 12px;
+    background: #0ed4f9;
+    transform: rotate(45deg);
+  }
+  &::after {
+    right: 0;
+  }
+  &::before {
+    left: 0;
+  }
+  .cen-line {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 88%;
+    height: 1px;
+    background: #00dbf9;
+  }
+}

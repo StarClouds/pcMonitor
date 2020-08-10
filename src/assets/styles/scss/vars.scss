@@ -1,0 +1,30 @@
+$color-body: #0B0E21;
+$bg-color: #0E0E27;
+$tabMenu-bg-color: #0A1528;
+$border-color: #0A2B56;
+$green-color: #5AAC58;
+$blue-color: #0B90F7;
+$yellow-color: #F1A22E;
+$td-font-color: #fff;
+$td-border-color:rgba(255,255,255,.2);
+$red-color: #E04047;
+$cyan-color: #0AC59F;
+$light-blue: #00DBF9;
+$purple-color: #7D7AE7;
+$deep-purple: #4A51BB;
+$tabMenu-bgColor: #00DBF9;
+$tabMenu-borderColor: #065485;
+
+$font-family: PingFangSC-Medium;
+$font-color: #fff;
+$font-size: 16px;
+
+$head-height: 70px;
+@font-face {
+  font-family: "ds-digit";
+  src: url("/fonts/ds-digit-webfont.eot"); /* IE9 Compat Modes */
+  src: url("/fonts/ds-digit-webfont.eot?#iefix") format("embedded-opentype"),
+  url("/fonts/ds-digit-webfont.woff") format("woff"),
+  url("/fonts/ds-digit-webfont.TTF") format("truetype"),
+  url("/fonts/ds-digit-webfont.svg#MicrosoftYaHei") format("svg");
+}
